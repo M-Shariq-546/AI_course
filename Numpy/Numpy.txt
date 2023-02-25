@@ -1,0 +1,27 @@
+If We use np.int8 so we have to be careful because in this case out integerr would be largeer than 3 digits
+
+And if you think that your number is larger value than you can also use int32 or int128 etc
+
+linspace is used for making array of equal size and space
+
+np.empty is used for making and empty array but having any random values .
+
+np.identity(size) is used for making identity array of given size .
+
+
+#Important Functions of Numpy
+
+arr.ravel() convert the array into single row array of total size.
+
+In axis ,, Axis = 0 represents rows , and Axis =1 represent columns.
+
+ar.sum(axis =0)
+ar.sum(axis =1) BOth these functions are used to calculate the sums of rows and columns of the array.
+
+ar.flat
+for item in ar.flat:
+    print(item)
+
+This Piece of code helps in making array flat and represent in row major order . Means First row elements 2nd row and so on.
+
+ar.argmax() gives the maximum number's index
