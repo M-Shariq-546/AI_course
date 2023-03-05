@@ -4,16 +4,9 @@ print('Please Fill The Given Form')
 
 name = str(input('Enter Your name : '))
 
-age = int(input('Enter YOur age : '))
+age = int(input('Enter Your age : '))
 
 phone = int(str(input('Enter your Phone Number : ')))
-
-#create_table ='''create table studennt (
- #                   id int auto incremented,
-  #                  sname varchar,
-   #                 age int ,  
-    #                phone int )'''
-
 
 con = s3.connect('student.db' , timeout=10)
 cur = con.cursor()
@@ -40,8 +33,4 @@ print(res)
 con.commit()
 
 con.close()
-
-
-
-
 
